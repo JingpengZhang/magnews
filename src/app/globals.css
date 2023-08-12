@@ -16,12 +16,23 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+/* body {
+  color: ;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+@layer base {
+  body {
+    @apply text-font-100 bg-white;
+  }
+}
+
+@layer components {
+  .inner-page {
+    @apply w-page mx-auto;
+  }
 }

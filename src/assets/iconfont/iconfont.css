@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4208007 */
+  src: url('iconfont.woff2?t=1691828177965') format('woff2'),
+       url('iconfont.woff?t=1691828177965') format('woff'),
+       url('iconfont.ttf?t=1691828177965') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  /* font-size: 16px; */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-exit:before {
+  content: "\e660";
+}
+
+.icon-email:before {
+  content: "\e65b";
+}
+
+.icon-play:before {
+  content: "\e65c";
+}
+
+.icon-reply:before {
+  content: "\e65d";
+}
+
+.icon-flex:before {
+  content: "\e65e";
+}
+
+.icon-clock:before {
+  content: "\e65f";
+}
+
+.icon-rate-1:before {
+  content: "\e644";
+}
+
+.icon-phone:before {
+  content: "\e645";
+}
+
+.icon-mobile-phone:before {
+  content: "\e646";
+}
+
+.icon-straw:before {
+  content: "\e647";
+}
+
+.icon-share:before {
+  content: "\e648";
+}
+
+.icon-rate-3:before {
+  content: "\e649";
+}
+
+.icon-folder:before {
+  content: "\e64a";
+}
+
+.icon-align:before {
+  content: "\e64b";
+}
+
+.icon-image:before {
+  content: "\e64c";
+}
+
+.icon-edit-profile:before {
+  content: "\e64d";
+}
+
+.icon-user:before {
+  content: "\e64e";
+}
+
+.icon-delete:before {
+  content: "\e64f";
+}
+
+.icon-rate-2:before {
+  content: "\e650";
+}
+
+.icon-mark:before {
+  content: "\e651";
+}
+
+.icon-view:before {
+  content: "\e652";
+}
+
+.icon-calendar:before {
+  content: "\e653";
+}
+
+.icon-code:before {
+  content: "\e654";
+}
+
+.icon-edit:before {
+  content: "\e655";
+}
+
+.icon-location:before {
+  content: "\e656";
+}
+
+.icon-rate-4:before {
+  content: "\e657";
+}
+
+.icon-grid:before {
+  content: "\e658";
+}
+
+.icon-add:before {
+  content: "\e659";
+}
+
+.icon-save:before {
+  content: "\e65a";
+}
+
+.icon-star:before {
+  content: "\e63f";
+}
+
+.icon-link:before {
+  content: "\e640";
+}
+
+.icon-rate-5:before {
+  content: "\e641";
+}
+
+.icon-post:before {
+  content: "\e642";
+}
+
+.icon-message:before {
+  content: "\e643";
+}
+
+.icon-more:before {
+  content: "\e63c";
+}
+
+.icon-arrow:before {
+  content: "\e63d";
+}
+
+.icon-search:before {
+  content: "\e63e";
+}
+
