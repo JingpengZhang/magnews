@@ -3,17 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url("/public/fonts/NotoSans.otf");
 }
 
 /* body {
@@ -26,13 +31,14 @@
     rgb(var(--background-start-rgb));
 } */
 @layer base {
-  body {
-    @apply text-font-100 bg-white;
-  }
+    body {
+        font-family: 'NanoSans';
+        @apply text-font-100 bg-white font-nano;
+    }
 }
 
 @layer components {
-  .inner-page {
-    @apply w-page mx-auto;
-  }
+    .inner-page {
+        @apply w-page mx-auto;
+    }
 }
